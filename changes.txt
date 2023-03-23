@@ -1,0 +1,20 @@
+Incremental features for the C programming language
+
+@ Language
+1. Ownership/Borrowing model for memory management
+2. Generics
+3. Modern fixed-length type system, references
+4. No implicit type conversions
+5. Extended struct capabilities - for building abstractions
+6. Improved function pointer syntax
+7. Improved error handling
+8. Improved inline assembly syntax
+
+@ Library
+1. Extended standard library with -
+    C++ STL like DSA containers and functions
+    Regex
+    JSON Parsing etc.
+    Cryptography
+    features borrowed from C++ and Rust standard libraries
+2. Modular library allowing modular linking
