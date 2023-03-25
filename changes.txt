@@ -1,20 +1,81 @@
 Incremental features for the C programming language
 
-@ Language
-1. Ownership/Borrowing model for memory management
-2. Generics
-3. Modern fixed-length type system, references
-4. No implicit type conversions
-5. Extended struct capabilities - for building abstractions
-6. Improved function pointer syntax
-7. Improved error handling
-8. Improved inline assembly syntax
+@ core language
+1. ownership/borrowing based memory management model
 
-@ Library
-1. Extended standard library with -
+
+
+2. smart pointers
+
+
+
+3. generics
+
+
+
+4. modern fixed-length type system, references
+basic types: (mutable by default, const)
+ints- int8, uint8, int16, uint16, int32, uint32, int64, uint64, int128, uint128
+floats- float64, float128, float256
+chars- char8, char16, char32
+
+derived types:
+arrays: type var[len]
+strings: string var = "Hello, World! \n"
+cstrings: char8 var[len], cstrlen = len - 1, cstring[-1] = '\0'
+n-tuples: tuple var[len] = (type var1, type var2, ...)
+
+negative_index allowed => index = neg_index + len
+pointers: type *ptr => dereferencing not allowed when possibly/surely NULL
+references: type [mut] &ref = var (const by default)
+
+implicit type conversions not allowed 
+
+
+
+5. function syntax
+
+fn function_name(type arg1, type arg2, ...) -> (type ret1, type ret2, ...) {
+	function_code;
+	...
+	return (ret1, ret2, ...);
+}
+
+improved function pointer syntax
+
+
+
+6. extended struct capabilities - for building abstractions
+
+
+
+
+8. improved error handling
+
+
+
+
+9. improved inline (assembly, llvm ir) syntax - no_opt
+set syntax = att, intel
+[no_opt] asm {
+	movl $1, %eax
+	...
+}
+
+[no_opt] llvm_ir {
+	mov 1, %1
+	...
+}
+
+
+
+
+############################################
+@ std library
+1. extended standard library with -
     C++ STL like DSA containers and functions
-    Regex
+    regex
     JSON Parsing etc.
-    Cryptography
+    cryptography
     features borrowed from C++ and Rust standard libraries
-2. Modular library allowing modular linking
+2. modular library allowing modular linking
