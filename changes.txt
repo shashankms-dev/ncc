@@ -20,14 +20,15 @@ floats- float64, float128, float256
 chars- char8, char16, char32
 
 derived types:
-arrays: type var[len]
-strings: string var = "Hello, World! \n"
-cstrings: char8 var[len], cstrlen = len - 1, cstring[-1] = '\0'
-n-tuples: tuple var[len] = (type var1, type var2, ...)
+arrays- type var[len]
+strings- string var = "Hello, World! \n"
+cstrings- char8 var[len], cstrlen = len - 1, cstring[-1] = '\0'
+n-tuples- tuple var[len] = (type var1, type var2, ...)
 
 negative_index allowed => index = neg_index + len
-pointers: type *ptr => dereferencing not allowed when possibly/surely NULL
-references: type [mut] &ref = var (const by default)
+
+pointers- type *ptr => dereferencing not allowed when possibly/surely NULL
+references- type [mut] &ref = var (const by default)
 
 implicit type conversions not allowed 
 
@@ -40,9 +41,6 @@ fn function_name(type arg1, type arg2, ...) -> (type ret1, type ret2, ...) {
 	...
 	return (ret1, ret2, ...);
 }
-
-improved function pointer syntax
-
 
 
 6. extended struct capabilities - for building abstractions
