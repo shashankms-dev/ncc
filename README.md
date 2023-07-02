@@ -7,13 +7,13 @@ Using LLVM compiler development framework for backend - https://llvm.org/
 Improvements -
 <br/>
 <ol>
-  <li> 0. CLEAN, READABLE SYNTAX rules and conventions </li>
-  <li> 1. Ownership/Borrowing based memory management model </li>
-  <li> 2. Smart pointers </li>
-  <li> 3. Generics </li>
-  <li> 4. Modern fixed-length type system, references </li>
-  <li> 5. Explicit type conversions </li>
-  <li> 6. Extended struct capabilities </li>
-  <li> 7. Improved error handling </li>
-  <li> 8. Improved inline (assembly, llvm ir) syntax - no_opt </li>
+  <li start="0"> CLEAN, READABLE SYNTAX rules and conventions </li>
+  <li> Ownership/Borrowing based memory management model </li>
+  <li> Smart pointers </li>
+  <li> Generics </li>
+  <li> Modern fixed-length type system, references </li>
+  <li> Explicit type conversions </li>
+  <li> Extended struct capabilities </li>
+  <li> Improved error handling </li>
+  <li> Improved inline (assembly, llvm ir) syntax - no_opt </li>
 </ol>
