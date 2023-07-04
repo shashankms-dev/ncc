@@ -1,4 +1,4 @@
-# C24 - The New C Standard
+# C24 - The C Programming Language Modernized
 The C programming language, a safe and modern implementation.
 Will be implemented as a self-hosted language, with a bootstrapped compiler.
 Inspired by the following languages - C, Rust, Zig, Python
