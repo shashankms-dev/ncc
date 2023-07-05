@@ -1,18 +1,37 @@
-# C24 - The C Programming Language Modernized
-**The C programming language**, a safe and modern implementation.
-Will be implemented as a self-hosted language, with a bootstrapped compiler.
-Inspired by the following languages - C, C++, Rust, Zig, Python
+# C24 - The new C programming language
+## A Safe and Modern Implementation of the C programming language
+
+Will be implemented in C, as a compiler frontend.
+Inspired by the following languages - C, C++, Rust, Zig, Python. \
 Using LLVM compiler development framework for backend - https://llvm.org/
 
 ## Key Features
+* Clean, Readable Syntax rules and conventions
+* Ownership/Borrowing based memory management model
+* Smart pointers
+* Generics
+* Modern fixed-length type system, references
+* Explicit type conversions
+* Extended struct capabilities
+* Improved error handling
+* Improved inline (assembly, llvm ir) syntax - no_opt
 
-  0. CLEAN, READABLE SYNTAX rules and conventions
-  1. Ownership/Borrowing based memory management model
-  2. Smart pointers
-  3. Generics
-  4. Modern fixed-length type system, references
-  5. Explicit type conversions
-  6. Extended struct capabilities
-  7. Improved error handling
-  8. Improved inline (assembly, llvm ir) syntax - no_opt
----
+## Installation
+1. BSD and Linux \
+    Installation instructions for BSD, Linux
+2. Windows \
+    Installation instructions for Windows
+3. Mac \
+    Installation instructions for Mac
+
+## Contribution
+While contributing to the project, please follow these guidelines -
+* Guideline 1
+* Guideline 2
+
+## Known Issues
+No issues yet \
+You can report bugs [here](https://github.com/shashankms-dev).
+
+## Donation Links
+If you are feeling generous and would like to support us in making technology better, please contribute - [Thanks for your Help, it means a lot to us](https://github.com/shashankms-dev).
