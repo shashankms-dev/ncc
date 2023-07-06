@@ -1,5 +1,5 @@
 # C24 - The new C programming language
-## A Safe and Modern Implementation of the C programming language
+## The C programming language, a Safe and Modern Implementation
 
 Will be implemented in C, as a compiler frontend.
 Inspired by the following languages - C, C++, Rust, Zig, Python. \
