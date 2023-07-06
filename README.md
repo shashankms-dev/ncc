@@ -8,12 +8,10 @@ Using LLVM compiler development framework for backend - https://llvm.org/
 ## Key Features
 * Clean, Readable Syntax rules and conventions
 * Ownership/Borrowing based memory management model
-* Smart pointers
 * Generics
 * Modern fixed-length type system, references
 * Explicit type conversions
 * Extended struct capabilities
-* Improved error handling
 * Improved inline (assembly, llvm ir) syntax - no_opt
 
 ## Installation
