@@ -3,7 +3,7 @@
 
 The language will be implemented in C, consisting of a compiler frontend to compile source language to LLVM Intermediate Representation. \
 \
-Inspired by the following languages - C, C++, Rust, Zig, Python. \
+Inspired by the following languages - C, Rust and Python. \
 To know more about LLVM compiler framework - https://llvm.org/
 
 ## Key Features
