@@ -7,13 +7,16 @@ Inspired by the following languages - C, Rust and Python. \
 To know more about LLVM compiler framework - https://llvm.org/
 
 ## Key Features
-* Clean, Readable Syntax rules and conventions
-* Ownership/Borrowing based memory management model
-* Generics
+* Clean, Readable and Consistent Syntax rules and conventions
+* Ownership/Borrowing based manual memory management model
+* Support for Generic / Polymorphic code
 * Modern fixed-length type system, references
-* Explicit type conversions
+* Type conversions must be Explicit
 * Extended struct capabilities
-* Improved inline (assembly, llvm ir) syntax - no_opt
+* Improved inline (assembly, llvm ir) syntax, do not optimize - no_opt flag
+
+## Documentation
+Detailed language documentation can be found [here](https://neo-c.org/docs/book).
 
 ## Installation
 1. BSD and Linux \
@@ -32,5 +35,5 @@ While contributing to the project, please follow these guidelines -
 A detailed documentation highlighting all the language features will be published soon. \
 You can report bugs [here](https://github.com/shashankms-dev).
 
-## Help Us
-If you would like to support us in making technology better, please contribute - [Thanks for your Help, it means a lot to us](https://github.com/shashankms-dev "Help Us").
+## Support us
+If you would like to support us in making technology better, please contribute - [Thanks for your Help, it means a lot to us](https://github.com/shashankms-dev "Support us").
