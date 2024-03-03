@@ -1,4 +1,4 @@
-# C24 - The new C programming language
+# Neo-C: The new C programming language
 ## The C programming language, a Safe and Modern Implementation
 
 The language will be implemented in C, consisting of a compiler frontend to compile source language to LLVM Intermediate Representation. \
