@@ -13,6 +13,7 @@ To know more about LLVM compiler framework - https://llvm.org/
 * Modern fixed-length type system, references
 * Type conversions must be Explicit
 * Extended struct capabilities
+* Memory-safe, type-safe, thread-safe, null-safe by Design
 * Improved inline (assembly, llvm ir) syntax, do not optimize - no_opt flag
 
 ## Documentation
