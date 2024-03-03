@@ -33,4 +33,4 @@ A detailed documentation highlighting all the language features will be publishe
 You can report bugs [here](https://github.com/shashankms-dev).
 
 ## Help Us
-If you are feeling generous and would like to support us in making technology better, please contribute - [Thanks for your Help, it means a lot to us](https://github.com/shashankms-dev "Help Us").
+If you would like to support us in making technology better, please contribute - [Thanks for your Help, it means a lot to us](https://github.com/shashankms-dev "Help Us").
